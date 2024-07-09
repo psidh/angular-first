@@ -79,6 +79,7 @@ nav .actions #login, .hero button{
     grid-column: 3;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     column-gap: 4rem;
+    row-gap: 2.5rem;
 }
 
 .projects div{
@@ -95,9 +96,12 @@ nav .actions #login, .hero button{
     aspect-ratio: 1.6;
     border-radius: 12px;
     object-fit: cover;
+    object-position: top;
+    
 }
 
 .projects div button{
+    margin-top: 1rem;
     background-color: black;
     border: 0px;
     color: white;
