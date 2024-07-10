@@ -7,7 +7,6 @@ import { FaqComponent } from './faq/faq.component';
 export const routes: Routes = [
     {
         path: '',
-        pathMatch: 'full',
         component: HomeComponent,
     },
     {

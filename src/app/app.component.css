@@ -1,11 +1,23 @@
 nav {
     /* border: 1px solid black; */
-    padding: 1.5rem 3rem;
+    padding: 12px 24px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     text-transform: uppercase;
     align-items: center;
+}
+
+@media screen and (min-width: 768px){
+    nav{
+        padding: 0.7rem 1.4rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    nav{
+        padding: 1.5rem 3rem
+    }   
 }
 
 nav a{
