@@ -149,3 +149,7 @@
     border-radius: 48px;
     font-weight: 500;
 }
+
+button{
+    @apply py-2 px-4 border border-neutral-400 rounded-full m-1
+}
